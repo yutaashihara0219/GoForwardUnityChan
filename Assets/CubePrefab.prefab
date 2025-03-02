@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -5997944935943378134}
   m_Layer: 0
   m_Name: CubePrefab
-  m_TagString: Untagged
+  m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172,6 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc11857d4cd1eb4f872e3d2efeecc87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  se1: {fileID: 8300000, guid: 37816e11655e5564eb4bbef3fb7e536a, type: 3}
+  se2: {fileID: 8300000, guid: 325b3d86a1274e74dabf14d3ea520480, type: 3}
 --- !u!82 &-5997944935943378134
 AudioSource:
   m_ObjectHideFlags: 0
@@ -182,11 +184,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 37816e11655e5564eb4bbef3fb7e536a, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
